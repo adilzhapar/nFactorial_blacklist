@@ -1,0 +1,38 @@
+#add-container {
+    margin: 50px 0 80px 30px;
+    
+}
+
+#container {
+    margin-top: 20px;
+    background-color: green;
+}
+
+#places-container {
+    margin: 30px;
+}
+
+.remove {
+    width: 15px;
+    float: right;
+    color: red;
+
+}
+
+.remove:hover, button:hover{
+    cursor: pointer;
+}
+
+.item{
+    width: 150px;
+    margin: 10px;
+    background-color: violet;
+    padding: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
+}

@@ -1,0 +1,26 @@
+#example {
+    width: 100px;
+    height: 100px;
+    margin: 150px auto;
+    background-color: yellow;
+}
+
+button {
+    background-color: peachpuff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    margin: 35px auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.highlighted {
+    background-color: violet !important;
+    border: 2px yellow dashed;
+
+}
