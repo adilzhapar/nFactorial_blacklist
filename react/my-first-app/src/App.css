@@ -1,0 +1,49 @@
+.hello-world {
+  background-color: aqua;
+  color: white;
+  width: 300px;
+  height: 200px;
+}
+
+/* .counter-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+button {
+  outline: none;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.reset {
+  margin-top: 30px;
+}
+
+.reset button {
+  background-color: gray;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.increase {
+  background-color: green;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.increase {
+  background-color: red;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
