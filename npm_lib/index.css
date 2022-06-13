@@ -1,0 +1,12 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+body .light {
+    background-color: lightblue;
+}
+
+body .dark {
+    background-color: darkblue;
+}

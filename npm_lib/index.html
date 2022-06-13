@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>npm Local Storage</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <script>
+    function writeToLocalStorage() {
+      localStorage.setItem("n!", "the best");
+    }
+    function setDarkTheme() {
+      localStorage.setItem("theme", "dark");
+      const root = document.getElementById("mainContainer");
+      root.className = "dark";
+    }
+    function setLightTheme() {
+      localStorage.setItem("theme", "light");
+      const root = document.getElementById("mainContainer");
+      root.className = "light";
+    }
+    function getValue() {
+      const theme = localStorage.getItem("theme");
+      const root = document.getElementById("mainContainer");
+      root.className = theme;
+    }
+    function cookie() {
+        document.cookie()
+    }
+  </script>
+  <body>
+    <main id="mainContainer">
+      <button onclick="writeToLocalStorage()">Write</button>
+      <button onclick="setLightTheme()">Light Mode</button>
+      <button onclick="setDarkTheme()">Dark Mode</button>
+    </main>
+  </body>
+</html>
