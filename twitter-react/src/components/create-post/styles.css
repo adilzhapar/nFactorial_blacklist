@@ -1,0 +1,33 @@
+.create-post-wrapper {
+    position: absolute;
+    top: 70px;
+}
+
+.profile-image {
+    width: 45px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+.post-button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: #5dc4fb;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}

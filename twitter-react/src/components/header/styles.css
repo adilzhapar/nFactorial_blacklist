@@ -1,0 +1,16 @@
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    width: calc(100% - 40%);
+    z-index: 99999;
+    background-color: white;
+    height: 60px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
